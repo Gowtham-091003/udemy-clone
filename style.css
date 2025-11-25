@@ -179,5 +179,32 @@ body{
 
 }
 
+@media screen and (max-width:600px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    #categories{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    #mylearning{
+        display: none;
+    }
+    #navbar__s3>p{
+        display: none;
+    }
+    #navbar__s3 i{
+        display: none;
+    }
+    #navbar__s2{
+        display: none;
+    }
+}
+
+
+
 
 
